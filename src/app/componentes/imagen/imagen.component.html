@@ -1,0 +1,5 @@
+<h2>{{ insertarimg }}</h2>
+<img width="200" (error)="imgError()" [src]="insertarimg" alt="" *ngIf="insertarimg; else notImg">
+<ng-template #notImg>
+   <img width="200" [src]="imagenDefecto" alt="">
+</ng-template>

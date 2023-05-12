@@ -1,0 +1,25 @@
+<p>productos works!</p>
+<!-- <h2>{{producto.nombre}}</h2>
+<p>{{producto.precio}}</p> -->
+<h5>Inserte producto</h5>
+<input type="text" [(ngModel)]="producto.nombre"  />
+<h5>Inserte precio</h5>
+<input type="text" [(ngModel)]="producto.precio"  />
+<button type="button" (click)="agregarProducto()">Agregar Producto</button>
+<button type="button" (click)="verProducto()">Ver Producto</button>
+<button type="button" (click)="verPokemon()">Ver Pokemon</button>
+<!-- <div *ngFor="let p of productos">
+  <h2>{{p.nombre}}</h2>
+  <p>{{p.precio}}</p>
+</div> -->
+<div *ngFor="let p of pokemones ">
+  <div class="card" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{p.name}}</h5>
+      <p class="card-text">{{p.url}}</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+</div>
+
