@@ -1,6 +1,9 @@
-<h1>Taller</h1>
+<!-- <h1>Taller</h1>
 <input type="text" [(ngModel)]="imgParent">
 <componente-imagen [insertarimg]="imgParent" (cargar)="imgCargar()"></componente-imagen>
-<!-- componentne hijo -->
 <componente-productos></componente-productos>
-
+ -->
+ <a [routerLink]="['/productos']" class="btn btn-primary">IR A POKEMON</a>
+ <a [routerLink]="['/imagen']" class="btn btn-primary">IR A Imagen</a>
+<!-- 1 -->
+<router-outlet></router-outlet>

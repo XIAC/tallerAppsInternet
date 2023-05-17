@@ -1,0 +1,112 @@
+[debug] [2023-05-17T00:52:24.546Z] ----------------------------------------------------------------------
+[debug] [2023-05-17T00:52:24.551Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ximen\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-05-17T00:52:24.551Z] CLI Version:   12.0.1
+[debug] [2023-05-17T00:52:24.552Z] Platform:      win32
+[debug] [2023-05-17T00:52:24.552Z] Node Version:  v19.3.0
+[debug] [2023-05-17T00:52:24.552Z] Time:          Tue May 16 2023 20:52:24 GMT-0400 (Bolivia Time)
+[debug] [2023-05-17T00:52:24.552Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-17T00:52:24.695Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-17T00:52:24.697Z] > authorizing via signed-in user (ximena.anaguaya@uab.edu.bo)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\ximen\OneDrive\Desktop\TALLERBD\taller2parte
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Account Setup
+[info] 
+[info] Which account do you want to use for this project? Choose an account or add a new one now
+[info] 
+[debug] [2023-05-17T00:52:46.721Z] setProjectAccount(C:\Users\ximen\OneDrive\Desktop\TALLERBD\taller2parte, ximena.anaguaya@uab.edu.bo)
+[info] 
+[info] +  Using account: ximena.anaguaya@uab.edu.bo 
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-05-17T00:52:46.737Z] Using project from CLI flag: test-ec8d7
+[debug] [2023-05-17T00:52:46.739Z] > refreshing access token with scopes: []
+[debug] [2023-05-17T00:52:46.744Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-05-17T00:52:46.745Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-17T00:52:47.216Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-05-17T00:52:47.217Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-17T00:52:47.223Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/test-ec8d7 [none]
+[debug] [2023-05-17T00:52:47.661Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/test-ec8d7 403
+[debug] [2023-05-17T00:52:47.662Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/test-ec8d7 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-05-17T00:52:47.662Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-05-17T00:52:47.865Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\ximen\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\ximen\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project test-ec8d7. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-05-17T00:53:50.636Z] ----------------------------------------------------------------------
+[debug] [2023-05-17T00:53:50.640Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ximen\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-05-17T00:53:50.640Z] CLI Version:   12.0.1
+[debug] [2023-05-17T00:53:50.641Z] Platform:      win32
+[debug] [2023-05-17T00:53:50.641Z] Node Version:  v19.3.0
+[debug] [2023-05-17T00:53:50.641Z] Time:          Tue May 16 2023 20:53:50 GMT-0400 (Bolivia Time)
+[debug] [2023-05-17T00:53:50.641Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-17T00:53:50.794Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-17T00:53:50.795Z] > authorizing via signed-in user (ximena.anaguaya@uab.edu.bo)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\ximen\OneDrive\Desktop\TALLERBD\taller2parte
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Account Setup
+[info] 
+[info] Which account do you want to use for this project? Choose an account or add a new one now
+[info] 
+[debug] [2023-05-17T00:54:01.769Z] setProjectAccount(C:\Users\ximen\OneDrive\Desktop\TALLERBD\taller2parte, ximena.anaguaya@uab.edu.bo)
+[info] 
+[info] +  Using account: ximena.anaguaya@uab.edu.bo 
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-05-17T00:54:01.784Z] Using project from CLI flag: test-ec8d7
+[debug] [2023-05-17T00:54:01.787Z] > refreshing access token with scopes: []
+[debug] [2023-05-17T00:54:01.791Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-05-17T00:54:01.791Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-17T00:54:02.252Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-05-17T00:54:02.252Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-17T00:54:02.259Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/test-ec8d7 [none]
+[debug] [2023-05-17T00:54:02.662Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/test-ec8d7 403
+[debug] [2023-05-17T00:54:02.662Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/test-ec8d7 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-05-17T00:54:02.663Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-05-17T00:54:02.926Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\ximen\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\ximen\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project test-ec8d7. Please make sure the project exists and your account has permission to access it.

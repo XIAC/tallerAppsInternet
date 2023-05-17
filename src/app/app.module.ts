@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { ImagenComponent } from './componentes/imagen/imagen.component';
 import { FormsModule } from '@angular/forms';
 import { ProductosComponent } from './componentes/productos/productos.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,11 @@ import { ProductosComponent } from './componentes/productos/productos.component'
   imports: [
     BrowserModule,
     FormsModule,
+    RouterModule.forRoot([
+      { path: '', component: AppComponent},
+      { path: 'imagen', component: ImagenComponent},
+      { path: 'productos', component: ProductosComponent}
+    ]),
     HttpClientModule
   ],
   providers: [],
